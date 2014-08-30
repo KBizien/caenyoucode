@@ -35,3 +35,10 @@ body {
 	font-size: 2rem;
 	margin-top: 0.75rem;
 }
+.main-nav__item-link {
+	color: $nav-item-color;
+	transition: color 0.3s;
+	&:hover {
+		color: $nav-item-color-hover;
+	}
+}
