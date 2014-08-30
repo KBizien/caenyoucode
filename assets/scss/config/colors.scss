@@ -6,6 +6,12 @@ $dark-grey: #212121;
 $grey: #4a4a4a;
 $light-grey: #666;
 
+$tag-blue: #007eff;
+$tag-green: #13a045;
+$tag-red: #ab0200;
+$tag-yellow: #e2cf01;
+$tag-orange: #da4600;
+
 // Proxy Colors
 
 // default header blog
@@ -17,8 +23,15 @@ $nav-item-border: $dark-grey;
 // Post Loop
 $border-post: $grey;
 
+// tag
 $tag-color: $white;
 $tag-background: $grey;
+
+$tag-html: $tag-blue;
+$tag-css: $tag-orange;
+$tag-js: $tag-green;
+$tag-ruby: $tag-red;
+$tag-php: $tag-yellow;
 
 $border-author: $grey;
 $read-more-color: $red;
