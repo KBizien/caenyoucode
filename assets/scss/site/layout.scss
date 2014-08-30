@@ -22,20 +22,18 @@ body {
 }
 	.main-nav__items {
 		list-style: none;
-		padding-right: 5px;
 	}
 		.main-nav__item {
-			font-size: 3rem;
+			font-size: 2rem;
 			font-weight: 700;
-		}
-		.main-nav__item:nth-child(2){
-			margin-top: 2rem;
 		}
 			.main-nav__item-link {
 				color: $nav-item-color;
-				transition: color 0.3s;
+				transition: background-color 0.3s;
+				background-color: $nav-item-background-color;
 				&:hover {
-					color: $nav-item-color-hover;
+					background-color: $nav-item-background-color-hover;
+					color: $nav-item-color;
 				}
 			}
 // .icon-feed {
@@ -51,6 +49,7 @@ body {
 	background-color: $footer-background;
 	padding: 1rem;
 	margin-top: 1rem;
+	font-size: 0.75rem;
 }
 	.copyright {
 		color: white;
