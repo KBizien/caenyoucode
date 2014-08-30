@@ -1,17 +1,37 @@
 body {
 	font-size: 100%;
 }
+
+/**
+ * Header blog 
+ */
+
+.main-header {
+	width: 100%;
+}
+.logo-wrapper {
+	margin-bottom: 1rem;
+	width: 50%;
+	float: left;
+}
 .blog-logo__img {
 	width: 100px;
-	margin-bottom: 1rem;
 }
-.blog-description {
-	font-size: 1.5rem;
-	font-weight: 400;
-	padding: 0 0.5rem;
+.main-nav {
+	width: 50%;
+	float: right;
+	text-align: right;
+	padding-top: 5px;
 }
 .icon-feed {
 	font-size: 3rem;
-	float: right;
-	margin: 5px 5px 0 0;
+	padding-right: 5px;
+}
+.main-nav__items {
+	list-style: none;
+	padding-right: 5px;
+}
+.main-nav__item {
+	font-size: 2rem;
+	margin-top: 0.75rem;
 }
