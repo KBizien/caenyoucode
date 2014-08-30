@@ -2,10 +2,45 @@
  *	Home page  
  */
 .description-wrapper {
-	margin-top: 1rem;
+	margin: 1rem auto;
 }
 .blog-description {
 	font-size: 2rem;
-	font-weight: 400;
+	font-weight: 700;
 	text-align: center;
+	font-variant: small-caps;
+}
+
+/**
+ *  Post Loop
+ */
+
+.post {
+	border-top: 15px solid $border-post;
+}
+.tag-wrapper {
+	position: relative;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 50px 0 0;
+	border-color: #eee transparent transparent transparent;
+}
+.tag-name {
+	position: absolute;
+	top: -45px;
+	font-family: $tag;
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: $tag-color;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+}
+.author-thumb {
+	width: 75px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
 }
