@@ -3,6 +3,7 @@
 $grey: #4a4a4a;
 $red: #d3031c;
 $light-grey: #eee;
+$white: #fff;
 
 // Proxy Colors
 
@@ -11,7 +12,13 @@ $nav-item-color: $grey;
 $nav-item-color-hover: $red;
 
 // Post Loop
-$border-post: $light-grey;
+$border-post: $grey;
 
-//tags
-$tag-color: $grey;
+$tag-color: $white;
+$tag-background: $grey;
+
+$border-author: $grey;
+$read-more-color: $red;
+
+// footer
+$footer-background: $grey;
