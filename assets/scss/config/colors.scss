@@ -1,16 +1,19 @@
 // 	Colors definition
 
-$grey: #4a4a4a;
-$red: #d3031c;
-$light-grey: #eee;
 $white: #fff;
+$red: #d3031c;
+$dark-grey: #212121;
+$grey: #4a4a4a;
+$light-grey: #666;
 
 // Proxy Colors
 
 // default header blog
-$nav-item-color: $grey;
+$nav-item-color: $white;
 $nav-item-color-hover: $red;
-
+$nav-item-background-color: $grey;
+$nav-item-background-color-hover: $light-grey;
+$nav-item-border: $dark-grey;
 // Post Loop
 $border-post: $grey;
 

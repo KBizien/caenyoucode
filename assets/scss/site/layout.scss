@@ -12,25 +12,32 @@ body {
 }
 	.logo-wrapper {
 		padding: 0.5rem;
-		margin-bottom: 1rem;
+		margin-bottom: 0.5rem;
 	}
 		.blog-logo__img {
-			width: 300px;
 		}
 
 .main-nav {
 }
 	.main-nav__items {
 		list-style: none;
+		&:last-child {
+			border-bottom: 4px solid $nav-item-border;
+		}
 	}
 		.main-nav__item {
-			font-size: 2rem;
+			font-size: 1.5rem;
 			font-weight: 700;
+			text-transform: uppercase;
+			border-top: 4px solid $nav-item-border;
 		}
 			.main-nav__item-link {
 				color: $nav-item-color;
 				transition: background-color 0.3s;
 				background-color: $nav-item-background-color;
+				display: block;
+				width: 100%;
+				padding: 0.5rem 0;
 				&:hover {
 					background-color: $nav-item-background-color-hover;
 					color: $nav-item-color;
