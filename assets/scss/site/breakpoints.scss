@@ -10,9 +10,9 @@
 	.author-details {
 		width: 80%;
 	}
-		.author-details__description {
-			line-height: 1.25;
-			font-family: $author-font;
+		.author-details__description,
+		.author-location,
+		.author-link {
 			font-size: 0.85rem;
 		}
 }
@@ -74,4 +74,9 @@
 	.author-details {
 		width: 85%;
 	}
+		.author-details__description,
+		.author-location,
+		.author-link {
+			font-size: 1rem;
+		}
 }

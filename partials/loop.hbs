@@ -13,6 +13,12 @@
                 <div class="author-details">
                     <p class="author-details__name">{{author.name}}</p>
                     <p class="author-details__description">{{author.bio}}</p>
+                    {{#author}}
+                        <div class="author-meta">
+                            {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
+                            {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
+                        </div>
+                    {{/author}}
                 </div>
             </div>
         </section>
