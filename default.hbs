@@ -28,17 +28,17 @@
         <div class="logo-wrapper">
             {{#if @blog.logo}}<a class="blog-logo__link" href="{{@blog.url}}"><img src="{{@blog.logo}}" class="blog-logo__img" alt="Blog Logo" /></a>{{/if}}
         </div>
-        <nav class="main-nav">
-            <ul class="main-nav__items">
-                <li class="main-nav__item"><a class="main-nav__item-link" href="{{@blog.url}}">Blog</a></li>
-                <li class="main-nav__item"><a class="main-nav__item-link" href="">À propos</a></li>
-            </ul>
-        </nav>
     </header>
     <div class="clearer"></div>
 
     {{! Everything else gets inserted here }}
     {{{body}}}
+    <nav class="main-nav">
+        <ul class="main-nav__items">
+            <li class="main-nav__item"><a class="main-nav__item-link" href="{{@blog.url}}">Blog</a></li>
+            <li class="main-nav__item"><a class="main-nav__item-link" href="">À propos</a></li>
+        </ul>
+    </nav>
     {{!-- <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/"></a> --}}
     <footer class="site-footer">
          <section class="copyright">&copy; {{date format="YYYY"}}<a href="{{@blog.url}}"> {{@blog.title}}</a></section>

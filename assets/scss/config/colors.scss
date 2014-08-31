@@ -3,8 +3,8 @@
 $white: #fff;
 $red: #d3031c;
 $dark-grey: #212121;
-$grey: #4a4a4a;
-$light-grey: #666;
+$grey: #444;
+$light-grey: #AAA;
 
 $tag-blue: #007eff;
 $tag-green: #13a045;
@@ -18,7 +18,7 @@ $tag-orange: #da4600;
 $nav-item-color: $white;
 $nav-item-color-hover: $red;
 $nav-item-background-color: $grey;
-$nav-item-background-color-hover: $light-grey;
+$nav-item-background-color-hover: $dark-grey;
 $nav-item-border: $dark-grey;
 // Post Loop
 $border-post: $grey;
@@ -37,4 +37,4 @@ $border-author: $grey;
 $read-more-color: $red;
 
 // footer
-$footer-background: $grey;
+$footer-background: $dark-grey;

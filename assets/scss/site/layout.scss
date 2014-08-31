@@ -17,18 +17,21 @@ body {
 		}
 
 .main-nav {
+	text-align: center;
+	margin-top: 0.5rem;
 }
 	.main-nav__items {
 		list-style: none;
+		margin-bottom: 0;
 		&:last-child {
-			border-bottom: 4px solid $nav-item-border;
+			border-bottom: 3px solid $nav-item-border;
 		}
 	}
 		.main-nav__item {
 			font-size: 1.5rem;
 			font-weight: 700;
 			text-transform: uppercase;
-			border-top: 4px solid $nav-item-border;
+			border-top: 3px solid $nav-item-border;
 		}
 			.main-nav__item-link {
 				color: $nav-item-color;
@@ -54,7 +57,6 @@ body {
 .site-footer {
 	background-color: $footer-background;
 	padding: 1rem;
-	margin-top: 1rem;
 	font-size: 0.75rem;
 }
 	.copyright {
