@@ -1,10 +1,54 @@
+/**
+ * Medium device
+ * Tablette
+ */
+@media (min-width:480px) {
+
+/**
+ *  Post Loop
+ */
+	.author-details {
+		width: 80%;
+	}
+		.author-details__description {
+			line-height: 1.25;
+			font-family: $author-font;
+			font-size: 0.85rem;
+		}
+}
+
+
+/**
+ * Large device
+ * Desktop
+ */
 @media (min-width:1024px) {
 
 /**
  *  Layout
  */
+	body {
+		background-color: #eee;
+	}
+	.main-header {
+		text-align: left;
+	}
 	.nav-tag__item {
 		float: left;
 		width: 12.5%;
+	}
+
+/**
+ *  Post Loop
+ */
+	.wrapper-posts-desktop {
+		position: relative;
+    	width: 90%;
+    	max-width: 780px;
+    	margin: 0 auto;
+    	background-color: white;
+	}
+	.author-details {
+		width: 85%;
 	}
 }
