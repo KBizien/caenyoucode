@@ -22,7 +22,7 @@
 		}
 
 .description-wrapper {
-	margin: 0.5rem auto 1.5rem auto;
+	margin-bottom: 1rem;
 }
 	.blog-description {
 		font-size: 1.5rem;
@@ -39,38 +39,79 @@
 }
 	.tag {
 		background-color: $tag-background;
-		border-top: 3px solid $tag-border;
-		padding: 0 0 0 1rem;
+		border-top: 5px solid $tag-border;
 	}
 	.HTML {
 		background-color: $tag-html;
+		border-top: 5px solid mix($tag-html, $tag-border, 50%);
+		transition: border-top 0.3s;
+		&:hover {
+			border-top: 5px solid $tag-border;
+		}
 	}
 	.CSS {
 		background-color: $tag-css;
+		border-top: 5px solid mix($tag-css, $tag-border, 70%);
+		transition: border-top 0.3s;
+		&:hover {
+			border-top: 5px solid $tag-border;
+		}
 	}
 	.JavaScript {
 		background-color: $tag-js;
+		border-top: 5px solid mix($tag-js, $tag-border, 70%);
+		transition: border-top 0.3s;
+		&:hover {
+			border-top: 5px solid $tag-border;
+		}
 	}
 	.Ruby {
 		background-color: $tag-ruby;
+		border-top: 5px solid mix($tag-ruby, $tag-border, 70%);
+		transition: border-top 0.3s;
+		&:hover {
+			border-top: 5px solid $tag-border;
+		}
 	}
 	.PHP {
 		background-color: $tag-php;
+		border-top: 5px solid mix($tag-php, $tag-border, 70%);
+		transition: border-top 0.3s;
+		&:hover {
+			border-top: 5px solid $tag-border;
+		}
 	}
 	.App {
 		background-color: $tag-app;
+		border-top: 5px solid mix($tag-app, $tag-border, 70%);
+		transition: border-top 0.3s;
+		&:hover {
+			border-top: 5px solid $tag-border;
+		}
 	}
 	.UX {
 		background-color: $tag-ux;
+		border-top: 5px solid mix($tag-ux, $tag-border, 70%);
+		transition: border-top 0.3s;
+		&:hover {
+			border-top: 5px solid $tag-border;
+		}
 	}
 	.UI {
 		background-color: $tag-ui;
+		border-top: 5px solid mix($tag-ui, $tag-border, 70%);
+		transition: border-top 0.3s;
+		&:hover {
+			border-top: 5px solid $tag-border;
+		}
 	}
 		.tag__name {
 			font-size: 1rem;
 			font-family: $tag;
 		    a {
 		    	color: $tag-color;
+		    	display: block;
+		    	padding: 0 0 0 1rem;
 		    }
 		}
 	.author {
@@ -83,6 +124,7 @@
 			overflow: hidden;
 			display: inline-block;
 			vertical-align: top;
+			margin-right: 0.25rem;
 		}
 			.author-thumb__img {
 				width: 100px;
@@ -117,6 +159,10 @@
 	}
 .post-excerpt {
 	font-size: 0.85rem;
+	p {
+		margin-bottom: 0;
+		padding-bottom: 2rem;
+	}
 }
 .read-more {
 	color: $read-more-color;
@@ -126,4 +172,5 @@
 .pagination {
 	font-family: $author-font;
 	font-weight: 700;
+	padding-bottom: 0.5rem;
 }

@@ -5,6 +5,7 @@ $red: #d3031c;
 $dark-grey: #212121;
 $grey: #444;
 $light-grey: #AAA;
+$blue: #248aaf;
 
 $tag-blue: #248aaf;
 $tag-green: #3cbc8d;
@@ -20,8 +21,8 @@ $tag-light-blue: #6ab4f1;
 // default header blog
 $nav-item-color: $white;
 $nav-item-color-hover: $red;
-$nav-item-background-color: $grey;
-$nav-item-background-color-hover: $dark-grey;
+$nav-item-background-color: $blue;
+$nav-item-background-color-hover: mix($blue, $grey, 60%);
 $nav-item-border: $dark-grey;
 // Post Loop
 $border-post: $grey;
@@ -29,7 +30,7 @@ $border-post: $grey;
 // tag
 $tag-color: $white;
 $tag-background: $grey;
-$tag-border: $dark-grey;
+$tag-border: $grey;
 
 $tag-html: $tag-blue;
 $tag-css: $tag-orange;

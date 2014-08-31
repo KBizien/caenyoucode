@@ -18,7 +18,6 @@ body {
 
 .main-nav {
 	text-align: center;
-	margin-top: 0.5rem;
 }
 	.main-nav__items {
 		list-style: none;
@@ -29,7 +28,6 @@ body {
 	}
 		.main-nav__item {
 			font-size: 1.25rem;
-			font-weight: 700;
 			text-transform: uppercase;
 			border-top: 3px solid $nav-item-border;
 		}
