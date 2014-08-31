@@ -23,10 +23,10 @@ $nav-header-item: $grey;
 $nav-header-item-hover: $red;
 
 $nav-item-color: $white;
-$nav-item-color-hover: $red;
-$nav-item-background-color: $blue;
-$nav-item-background-color-hover: mix($blue, $grey, 60%);
-$nav-item-border: $dark-grey;
+$nav-item-color-hover: $white;
+$nav-item-background-color: $dark-grey;
+$nav-item-background-color-hover: $grey;
+$nav-item-border: $light-grey;
 // Post Loop
 $border-post: $grey;
 

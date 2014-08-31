@@ -19,12 +19,35 @@ body {
 	.nav-header {
 		display: none;
 	}
+
+.nav-tag {
+	list-style: none;
+	overflow: hidden;
+	margin-bottom: 0;
+	text-align: center;
+	padding-left: 0;
+}
+	.nav-tag__item {
+		float: left;
+		width: 25%;
+	}
+		.nav-tag__item-link {
+			color: white;
+			display: block;
+			width: 100%;
+			padding: 2rem 0;
+			&:hover {
+				color: white;
+			}
+		}
+
 .main-nav {
 	text-align: center;
 }
 	.main-nav__items {
 		list-style: none;
 		margin-bottom: 0;
+		padding-left: 0;
 		&:last-child {
 			border-bottom: 3px solid $nav-item-border;
 		}
@@ -43,7 +66,7 @@ body {
 				padding: 0.5rem 0;
 				&:hover {
 					background-color: $nav-item-background-color-hover;
-					color: $nav-item-color;
+					color: $nav-item-color-hover;
 				}
 			}
 // .icon-feed {

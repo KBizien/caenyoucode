@@ -1,28 +1,8 @@
 /**
  *	Home page  
  */
-.nav-tag {
-	list-style: none;
-	overflow: hidden;
-	margin-bottom: 1rem;
-	text-align: center;
-}
-	.nav-tag__item {
-		float: left;
-		width: 25%;
-	}
-		.nav-tag__item-link {
-			color: white;
-			display: block;
-			width: 100%;
-			padding: 2rem 0;
-			&:hover {
-				color: white;
-			}
-		}
-
 .description-wrapper {
-	margin-bottom: 1rem;
+	margin: 1rem auto;
 }
 	.blog-description {
 		font-size: 1.5rem;
@@ -34,7 +14,6 @@
 /**
  *  Post Loop
  */
-
 .post {
 }
 	.tag {
@@ -123,7 +102,7 @@
 			border-radius: 50%;
 			overflow: hidden;
 			display: inline-block;
-			vertical-align: top;
+			vertical-align: middle;
 			margin-right: 0.25rem;
 		}
 			.author-thumb__img {
@@ -131,7 +110,7 @@
 			}
 		.author-details {
 			display: inline-block;
-			vertical-align: top;
+			vertical-align: middle;
 			width: 68%;
 		}
 			.author-details__name {
@@ -143,6 +122,7 @@
 				line-height: 1.25;
 				font-family: $author-font;
 				font-size: 0.65rem;
+				margin-bottom: 0;
 			}
 
 .post-title {
@@ -181,4 +161,53 @@
 }
 .page-tag-title {
 	font-size: 3rem;
+	margin: 1rem auto;
+}
+
+// Post page
+.posts--full {
+	padding: 1rem 0 0 0;
+}
+.post-meta {
+	margin: 0.25rem 0;
+}
+.post-header__tag {
+	font-family: $tag;
+}
+
+.post-content {
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	h3 {
+		font-size: 1.25rem;
+	}
+	h4, h5, h6 {
+		font-size: 1rem;
+	}
+	img {
+		width: 100%;
+	}
+}
+
+.author-location,
+.author-link {
+	font-size: 0.75rem;
+}
+.share {
+	margin-top: 0.5rem;
+	text-align: center;
+	padding-bottom: 0.5rem;
+	h6 {
+		font-size: 1.5rem;
+	}
+	.icon-twitter,
+	.icon-facebook,
+	.icon-google-plus {
+		font-size: 2.5rem;
+		margin: 0 0.5rem;
+	}
 }
