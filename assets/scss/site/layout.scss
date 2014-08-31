@@ -16,6 +16,25 @@ body {
 		.blog-logo__img {
 		}
 
+.nav-tag {
+	list-style: none;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+	.nav-tag__item {
+		float: left;
+		width: 25%;
+	}
+		.nav-tag__item-link {
+			color: white;
+			display: block;
+			width: 100%;
+			padding: 2rem 0;
+			&:hover {
+				color: white;
+			}
+		}
+
 .main-nav {
 	text-align: center;
 	margin-top: 0.5rem;

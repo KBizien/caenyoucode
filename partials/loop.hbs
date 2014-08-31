@@ -3,8 +3,8 @@
 <article class="{{post_class}}">
     <section class="post-meta">
         <div class="tag {{tags autolink="false"}}">
-            <span class="tag__name">{{tags}}</span>
-        </div> 
+            <span class="tag__name">{{tags separator=" - "}}</span>
+        </div>
         <div class="author inner">
             <div class="author-thumb">
                 {{#if author.image}}<img class="author-thumb__img" src="{{author.image}}" alt="Author image" />{{/if}}

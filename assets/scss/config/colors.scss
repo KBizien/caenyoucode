@@ -6,11 +6,14 @@ $dark-grey: #212121;
 $grey: #444;
 $light-grey: #AAA;
 
-$tag-blue: #007eff;
-$tag-green: #13a045;
-$tag-red: #ab0200;
-$tag-yellow: #e2cf01;
-$tag-orange: #da4600;
+$tag-blue: #248aaf;
+$tag-green: #3cbc8d;
+$tag-red: #e9422e;
+$tag-yellow: #fac552;
+$tag-orange: #fca13f;
+$tag-green-apple: #adbe00;
+$tag-violet: #669;
+$tag-light-blue: #6ab4f1;
 
 // Proxy Colors
 
@@ -33,6 +36,9 @@ $tag-css: $tag-orange;
 $tag-js: $tag-green;
 $tag-ruby: $tag-red;
 $tag-php: $tag-yellow;
+$tag-app: $tag-green-apple;
+$tag-ux: $tag-violet;
+$tag-ui: $tag-light-blue;
 
 $border-author: $grey;
 $read-more-color: $red;
