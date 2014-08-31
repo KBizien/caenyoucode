@@ -1,4 +1,27 @@
 /**
+ * Ultra small device
+ */
+@media (max-width:220px) {
+	.icon-twitter,
+	.icon-facebook,
+	.icon-google-plus {
+		display: block;
+	}
+}	
+@media (max-width:305px) {
+/**
+ *  Layout
+ */
+	.blog-logo__img {
+			max-width: 150px;
+		}
+
+	.author-details {
+		display: block;
+		width: 100%;
+	}
+}
+/**
  * Medium device
  * Tablette
  */
