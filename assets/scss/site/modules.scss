@@ -22,6 +22,21 @@
 		background-color: $tag-background;
 		padding: 0.5rem;
 	}
+	.HTML {
+		background-color: $tag-html;
+	}
+	.CSS {
+		background-color: $tag-css;
+	}
+	.JavaScript {
+		background-color: $tag-js;
+	}
+	.Ruby {
+		background-color: $tag-ruby;
+	}
+	.PHP {
+		background-color: $tag-php;
+	}
 		.tag__name {
 			font-size: 1.5rem;
 			font-family: $tag;
