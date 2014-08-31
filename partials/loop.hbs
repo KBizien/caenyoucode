@@ -17,6 +17,8 @@
                         <div class="author-meta">
                             {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
                             {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
+                            {{#if slug}}<a class="icon-twitter icon-twitter-account" href="https://twitter.com/{{slug}}">
+                            <span class="hidden">Twitter</span>{{/if}}</a>
                         </div>
                     {{/author}}
                 </div>

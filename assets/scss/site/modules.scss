@@ -194,14 +194,25 @@
 	}
 }
 
+.author-full-post {
+	border-top: 1px solid $border-author;
+	border-bottom: 1px solid $border-author;
+}
 .author-location,
 .author-link {
 	font-size: 0.75rem;
+	font-family: $author-website;
+	margin-right: 0.5rem;
+	vertical-align: middle;
+}
+.icon-twitter-account {
+	font-size: 1.25rem;
+	vertical-align: middle;
 }
 .share {
-	margin-top: 0.5rem;
+	margin-top: 1.5rem;
 	text-align: center;
-	padding-bottom: 0.5rem;
+	padding-bottom: 1rem;
 	h6 {
 		font-size: 1.5rem;
 	}
@@ -215,4 +226,7 @@
 // Page
 .page-full {
 	padding: 1rem 0 1rem 0;
+}
+.about-content {
+	margin-top: 1rem;
 }

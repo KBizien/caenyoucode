@@ -17,7 +17,7 @@
             </section>
 
             <footer class="post-footer inner">
-                <section class="author">
+                <section class="author author-full-post">
                     <div class="author-thumb">
                         {{#if author.image}}<img class="author-thumb__img" src="{{author.image}}" alt="Author image" />{{/if}}
                     </div>
@@ -28,6 +28,8 @@
                         <div class="author-meta">
                             {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
                             {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
+                            {{#if slug}}<a class="icon-twitter icon-twitter-account" href="https://twitter.com/{{slug}}">
+                            <span class="hidden">Twitter</span>{{/if}}</a>
                         </div>
                         {{/author}}
                     </div>
