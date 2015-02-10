@@ -36,7 +36,7 @@
 			border-top: 5px solid $tag-border;
 		}
 	}
-	.JavaScript {
+	.Javascript {
 		background-color: $tag-js;
 		border-top: 5px solid mix($tag-js, $tag-border, 70%);
 		transition: border-top 0.3s;
@@ -60,7 +60,7 @@
 			border-top: 5px solid $tag-border;
 		}
 	}
-	.App {
+	.Mobile {
 		background-color: $tag-app;
 		border-top: 5px solid mix($tag-app, $tag-border, 70%);
 		transition: border-top 0.3s;
@@ -68,7 +68,7 @@
 			border-top: 5px solid $tag-border;
 		}
 	}
-	.UX {
+	.UI-UX {
 		background-color: $tag-ux;
 		border-top: 5px solid mix($tag-ux, $tag-border, 70%);
 		transition: border-top 0.3s;
@@ -76,7 +76,7 @@
 			border-top: 5px solid $tag-border;
 		}
 	}
-	.UI {
+	.Agile {
 		background-color: $tag-ui;
 		border-top: 5px solid mix($tag-ui, $tag-border, 70%);
 		transition: border-top 0.3s;
